@@ -14,7 +14,7 @@
       "model": "Fusion",
       "year": "2014",
       "price": "14700",
-      "color": "White",
+      "color": "DarkSlateBlue",
       "purchased": false,
       "description": "A safe car to cruise in."
     },
@@ -23,7 +23,7 @@
       "model": "Maxima",
       "year": "2002",
       "price": "2000",
-      "color": "Green",
+      "color": "Tomato",
       "purchased": false,
       "description": "A cheap yet reliable car."
     },
@@ -32,7 +32,7 @@
       "model": "F150",
       "year": "2011",
       "price": "6200",
-      "color": "Blue",
+      "color": "SpringGreen",
       "purchased": false,
       "description": "Great for hauling stuff."
     }
