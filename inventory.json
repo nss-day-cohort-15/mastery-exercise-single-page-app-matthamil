@@ -1,0 +1,40 @@
+{
+  "cars": [
+    {
+      "make": "Nissan",
+      "model": "Rogue",
+      "year": "2006",
+      "price": "8999",
+      "color": "FireBrick",
+      "purchased": false,
+      "description": "This is a pretty sweet ride!"
+    },
+    {
+      "make": "Ford",
+      "model": "Fusion",
+      "year": "2014",
+      "price": "14700",
+      "color": "White",
+      "purchased": false,
+      "description": "A safe car to cruise in."
+    },
+    {
+      "make": "Nissan",
+      "model": "Maxima",
+      "year": "2002",
+      "price": "2000",
+      "color": "Green",
+      "purchased": false,
+      "description": "A cheap yet reliable car."
+    },
+    {
+      "make": "Ford",
+      "model": "F150",
+      "year": "2011",
+      "price": "6200",
+      "color": "Blue",
+      "purchased": false,
+      "description": "Great for hauling stuff."
+    }
+  ]
+}
