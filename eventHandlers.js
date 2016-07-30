@@ -90,12 +90,13 @@ var CarLot = (function eventHandlersModule(carLot = {}) {
     });
 
     function isEditModeOn() {
-      var isEditModeSelected = inventory.reduce((editStatus, car) => {
-        if (car.editMode === true) {
-          editStatus = true;
+      var isEditModeSelected = false;
+
+      for (let i = 0; i < inventory.length; i++) {
+        if (inventory[i].editMode) {
+          return true;
         }
-        return editStatus;
-      }, false);
+      }
 
       if (!isEditModeSelected) {
         alert('Please select a car.');
