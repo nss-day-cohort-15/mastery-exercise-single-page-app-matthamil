@@ -26,15 +26,6 @@
       "color": "Tomato",
       "purchased": false,
       "description": "A cheap yet reliable car."
-    },
-    {
-      "make": "Ford",
-      "model": "F150",
-      "year": "2011",
-      "price": "6200",
-      "color": "SpringGreen",
-      "purchased": false,
-      "description": "Great for hauling stuff."
     }
   ]
 }
