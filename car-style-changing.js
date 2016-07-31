@@ -26,8 +26,7 @@ var CarLot = (function carStylesModule(carLot = {}) {
       }
     } catch (e) {
       // Prevent the error from stopping all code execution
-      // Logs error instead
-      // console.log(e);
+      // Code breaks without this try/catch block
     }
   };
 
