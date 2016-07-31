@@ -13,20 +13,25 @@ var CarLot = (function carStylesModule(carLot = {}) {
     }
   };
 
+  // When any element inside the div with the class 'car'
+  // is clicked, traverse up the DOM until the wrapping
+  // div with the class 'car' is found, and then apply
+  // a larger border and change the background color.
+
   carLot.selectCar = (carElement, color) => {
-    // Traverse to the wrapping div on the clicked element
-    try {
-      var node = carElement.parentNode;
-      while (node != null) {
+    var node = carElement.parentNode;
+    while (node != null) {
+      // If a class exists on the current node
+      if (node.classList) {
+        // Traversed to a 'car'
         if (node.classList.contains('car')) {
           node.style.border = '6px solid';
           node.style.backgroundColor = color;
+          break;
         }
+        // Continue traversing up the DOM
         node = node.parentNode;
       }
-    } catch (e) {
-      // Prevent the error from stopping all code execution
-      // Code breaks without this try/catch block
     }
   };
 
