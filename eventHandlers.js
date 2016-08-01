@@ -12,20 +12,20 @@ var CarLot = (function eventHandlersModule(carLot = {}) {
     var carContent = `
       <div class="panel panel-default car" id="car-${index}" style="border:3px solid ${car.color}">
         <div class="panel-heading">
-         <h1>${car.make} ${car.model}, ${car.year}<h1>
+          <h1>${car.make} ${car.model}, ${car.year}<h1>
         </div>
         <div class="panel-body">
-         <h2>$${car.price}</h2>
-         <section id="car-${index}-desc">${car.description}</section>
-         <section>Color: ${car.color}</section>
+          <h2>$${car.price}</h2>
+          <section id="car-${index}-desc">${car.description}</section>
+          <section>Color: ${car.color}</section>
           <section>
-           <h2>
-            ${car.purchased ? 
-             '<span class="label label-danger">Sold</span>' : 
-             '<span class="label label-success">For Sale</span>' 
-           }
+            <h2>
+            ${car.purchased ?
+              '<span class="label label-danger">Sold</span>' :
+              '<span class="label label-success">For Sale</span>'
+            }
            </h2>
-          </section> 
+          </section>
         </div>
      </div>
     `;
